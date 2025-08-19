@@ -1,0 +1,51 @@
+# Visual Studio build artifacts
+bin/
+obj/
+AppPackages/
+BundleArtifacts/
+GeneratedFiles/
+TestResults/
+*.appx
+*.appxbundle
+*.appxupload
+*.msix
+*.msixbundle
+*.msixupload
+
+# Debug/Release folders
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+ARM/
+ARM64/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Visual Studio caches
+.vs/
+*.VC.db
+*.VC.VC.opendb
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Windows Store auto-generated files
+*.pfx
+*.cer
+
+# Logs
+*.log
+
+# Others
+[Bb]uild[Ll]og.*
+[Ll]og/
+[Tt]emp/
