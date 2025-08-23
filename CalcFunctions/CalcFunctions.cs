@@ -1,27 +1,20 @@
 ﻿using System;
+using CalcInputs; // reference the input DLL
 
 namespace CalcFunctions
 {
     public class CalcFunctions
     {
-        public float calculate(float val1, float val2, char calcOperator)
+        public float Calculate(CalcInput input)
         {
             float outputVal = 0;
 
-            switch (calcOperator)
+            switch (input.Operator)
             {
-                case '+':
-                    outputVal = val1 + val2;
-                    break;
-                case '-':
-                    outputVal = val1 - val2;
-                    break;
-                case '*':
-                    outputVal = val1 * val2;
-                    break;
-                case '/':
-                    outputVal = val1 / val2;
-                    break;
+                case '+': outputVal = input.Val1 + input.Val2; break;
+                case '-': outputVal = input.Val1 - input.Val2; break;
+                case '*': outputVal = input.Val1 * input.Val2; break;
+                case '/': outputVal = input.Val1 / input.Val2; break;
             }
 
             return outputVal;

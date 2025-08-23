@@ -63,7 +63,7 @@
     <AppxBundlePlatforms>neutral</AppxBundlePlatforms>
     <AppInstallerUri>C:\Users\natha\OneDrive\Documents\Uni\Year 3\Software Architecture and Design\Deployment Portfolio Task 1\ExampleDesktop\WinUniversalPackage\AppPackages\</AppInstallerUri>
     <HoursBetweenUpdateChecks>0</HoursBetweenUpdateChecks>
-    <PackageCertificateThumbprint>D121C5B19D0363FA6DD3A126ED20F686277CB649</PackageCertificateThumbprint>
+    <PackageCertificateThumbprint>383F79CAC95B7DAA39F7CB5604587E07F4CE3152</PackageCertificateThumbprint>
     <EntryPointProjectUniqueName>..\ExampleDesktop\SimpleCalculator.csproj</EntryPointProjectUniqueName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">

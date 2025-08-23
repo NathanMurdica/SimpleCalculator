@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{79E4AC18-2049-46CD-BB7C-37F90A734B8B}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ExampleDesktop</RootNamespace>
-    <AssemblyName>ExampleDesktop</AssemblyName>
+    <RootNamespace>SimpleCalculator</RootNamespace>
+    <AssemblyName>SimpleCalculator</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -84,6 +84,10 @@
     <ProjectReference Include="..\CalcFunctions\CalcFunctions.csproj">
       <Project>{8919912d-e218-4298-a42b-6e15913331db}</Project>
       <Name>CalcFunctions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CalcInputs\CalcInputs.csproj">
+      <Project>{18fc5903-b578-4893-9219-f76256d2a187}</Project>
+      <Name>CalcInputs</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
